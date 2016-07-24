@@ -157,4 +157,3 @@ backgroundStyleGenerator url =
     ("opacity", "0.5"),
     ("z-index", "-1")
   ]
-	
