@@ -8602,7 +8602,7 @@ var _mehanig$giphy_gifs_elm$Main$FetchSucceed = function (a) {
 	return {ctor: 'FetchSucceed', _0: a};
 };
 var _mehanig$giphy_gifs_elm$Main$getRandomGif = function (topic) {
-	var url = A2(_elm_lang$core$Basics_ops['++'], 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=', topic);
+	var url = A2(_elm_lang$core$Basics_ops['++'], 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=', topic);
 	return A3(
 		_elm_lang$core$Task$perform,
 		_mehanig$giphy_gifs_elm$Main$FetchFail,
